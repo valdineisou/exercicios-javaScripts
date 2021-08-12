@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio 02</title>
+    <style>
+        h1{
+            font-size: 30px;
+            font-family: arial;
+            padding: 30px;
+            color:royalblue;
+        }
+        button{
+            background-color: violet;;
+            font-size: 12pt;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com os dados</h1>
+    <button onclick="inicio()">Clique para começar</button>
+    <script>
+        function inicio(){
+            let nome = window.prompt('qual é o seu nome? ')
+            window.alert(`olá, ${nome}! É um parzer ti conhecer!`);
+            let idade =Number(window.prompt('Qual a sua idade? '));
+            window.alert(`${idade} anos é a sua idade`);
+        }
+    </script>
+    
+</body>
+</html>
